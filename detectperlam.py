@@ -219,7 +219,7 @@ def run(
                         if box_height >= box_width :
 
                           #ukuran lampu lalu lintas 
-                          object_width = 0.33
+                          object_width = 0.34
                           object_height = 1.06
 
                           #estimasi jarak
@@ -233,7 +233,7 @@ def run(
                           
                           #ukuran lampu lalu lintas
                           object_width = 1.06
-                          object_height = 0.33
+                          object_height = 0.34
 
                           #estimasi jarak
                           eq_angle = (box_width/im0.shape[1])*FOVH
